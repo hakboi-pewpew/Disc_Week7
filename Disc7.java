@@ -103,7 +103,7 @@ public class Disc7 {
 		String pretzels = "\t\t\tmini pretzels salted";
 		String bagelChips = "\t\t\tRye bagel chips";
 		String mixNuts = "\t\t\tmixed nuts (optional)";
-		String butter = "\t\t\tbutter (" + batches[5] + " sticks)";
+		String butter = "\t\t\tbutter (" + fmt.format(batches[5]) + " sticks)";
 		String worSauce = "\t\t\tWorcestershire sauce";
 		String seasonSalt = "\t\tLawry's seasoned salt";
 		String gPowder = "\t\tgarlic powder";
